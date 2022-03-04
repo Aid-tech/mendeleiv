@@ -1,0 +1,202 @@
+body{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+}
+
+table tbody tr td h3, table tbody tr td p{
+    text-align: center;
+}
+
+.violet{
+    background-color: #9D95C6;
+    border: 1px solid #443883;
+}
+
+.green{
+    background-color: #A2D9C9;
+    border: 1px solid #478674;
+}
+
+.green-light{
+    background-color: #CDEBC8;
+    border: 1px solid #67925f;
+}
+
+.yellow{
+    background-color: #FEEDB9;
+    border: 1px solid #a89868;
+}
+
+.yellow-light{
+    background-color: #F0FAC1;
+    border: 1px solid #bfcc87;
+}
+
+.pink{
+    background-color: #F7A78E;
+    border: 1px solid #e68467;
+}
+
+.pink-light{
+    background-color: #FDCFA0;
+    border: 1px solid #fabd7f;
+}
+
+.red{
+    background-color: #C5678E;
+    border: 1px solid #ac4972;
+}
+
+.red-light{
+    background-color: #E58A95;
+    border: 1px solid #d6717d;
+}
+
+.blue{
+    background-color: #84B9D7;
+    border: 1px solid #5991b1;
+}
+
+.empty{
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 850px){
+    body table{
+        font-size: 10px;
+        width: 825px;
+        margin: auto;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.55em;
+    }
+
+    table tbody tr td h3{
+        margin: 2px;
+    }
+    
+    table tbody tr td p{
+        margin: 2px;
+    }
+}
+
+@media only screen and (max-width: 849px){
+    body{
+        font-size: 10px;
+        width: 822px;
+        margin: auto;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.55em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    body{
+        font-size: 9px;
+        width: 822px;
+        margin: auto;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.55em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    body{
+        font-size: 9px;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.45em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    body{
+        font-size: 8px;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.4em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    body{
+        font-size: 8px;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.35em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    body{
+        font-size: 7px;
+    }
+
+    table tbody tr td p{
+        text-align: center;
+        font-size: 0.4em;
+    }
+
+    table tbody tr td h3{
+        margin: 1px;
+    }
+    
+    table tbody tr td p{
+        margin: 1px;
+    }
+}
